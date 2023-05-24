@@ -1,7 +1,8 @@
 import React from 'react'
+import { ItemList } from './ItemList'
 
 export const ItemListContainer = () => {
   return (
-    <div className='text-white max-w-7xl mx-auto my-10'>ItemListContainer</div>
+    <ItemList />
   )
 }
