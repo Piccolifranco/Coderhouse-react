@@ -10,9 +10,9 @@ const ItemCount = ({ quantity }) => {
   }
   return (
     <div>
-      <button className='mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded' disabled={count === quantity} onClick={onAdd}> Agregar al carrito </button>
+      <button className='mt-4 w-30 h-10 text-sm bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded' disabled={count === quantity} onClick={onAdd}> Agregar al carrito </button>
       <p>{count}</p>
-      <button className='mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded' disabled={count <= 0} onClick={onDelete}>
+      <button className='mt-4 w-30 h-10 text-sm bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded' disabled={count <= 0} onClick={onDelete}>
         Eliminar del carrito
       </button>
     </div>

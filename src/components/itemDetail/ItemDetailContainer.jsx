@@ -7,7 +7,7 @@ export const ItemDetailContainer = () => {
   useEffect(() => {
     getProducts()
       .then((products) => {
-        setItemDetailed(products[2])
+        setItemDetailed(products[0])
       })
       .catch((error) => {
         console.error(error)
