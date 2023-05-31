@@ -12,6 +12,7 @@ const ItemDetail = ({ item }) => {
         <p className='text-gray-500'>Cantidad: {item.quantity}</p>
         <ItemCount quantity={item.quantity} />
       </div>
+
     </div>
   )
 }
