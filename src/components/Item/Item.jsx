@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { BsCartPlus } from 'react-icons/bs'
 
 export const Item = ({ item }) => {
@@ -15,6 +16,7 @@ export const Item = ({ item }) => {
       <div className='flex justify-center'>
         <button className='flex justify-center py-3 w-12 h-10 text-lg rounded-lg  bg-green-600'><BsCartPlus /></button>
       </div>
+      <Link to={`/item/${item.id}`} className='text-blue-500 font-semibold'>Ver detalles</Link>
     </div>
   )
 }
