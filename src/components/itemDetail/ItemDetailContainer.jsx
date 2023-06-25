@@ -22,7 +22,8 @@ export const ItemDetailContainer = () => {
       })
   }, [id])
   return (
-    <div className='container mx-auto mt-10'>
+    <div className='max-w-7xl container mx-auto mt-10'>
+      <h3 className='text-white text-2xl font-bold'>Detalle del producto</h3>
       {itemDetailed ? <ItemDetail item={itemDetailed} /> : <p>Cargando...</p>}
     </div>
   )

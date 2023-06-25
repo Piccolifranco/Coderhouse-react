@@ -11,7 +11,7 @@ export const Item = ({ item }) => {
       <div className='flex flex-col gap-6'>
         <h2 className=' text-m font-bold pl-4'>{item.title}</h2>
         <p className=' text-sm font-bold p-4'>Price: ${item.price}</p>
-        <p className='text-sm p-4'> Quantity: {item.quantity}</p>
+        <p className='text-sm p-4'> Quantity: {item.stock}</p>
       </div>
       <div className='flex justify-center'>
         <button className='flex justify-center py-3 w-12 h-10 text-lg rounded-lg  bg-green-600'><BsCartPlus /></button>

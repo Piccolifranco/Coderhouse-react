@@ -52,7 +52,7 @@ export const CartDetail = ({ setShowCartDetail }) => {
                   Clear cart
                 </button>
               </div>
-            </>
+              </>
             : <p>The cart is empty</p>
         }
 
